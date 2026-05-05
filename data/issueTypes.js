@@ -1,6 +1,6 @@
 const issueTypes = {
   perkeso: {
-    label: "Statutory Deductions — Perkeso & EPF & Zakat",
+    label: "Statutory Deductions & Contributions",
     queue: "Dax-Payments-Perkeso & EPF & Zakat-MY",
     subIssues: {
       perkeso_socso: {
@@ -22,7 +22,7 @@ const issueTypes = {
   },
 
   pricing: {
-    label: "Payout & Commission — Pricing",
+    label: "Payout & Commission Issues",
     queue: "Dax-Payments-Pricing-MY",
     subIssues: {
       pricing_fare: {
@@ -45,7 +45,7 @@ const issueTypes = {
   },
 
   wallet: {
-    label: "Wallet & Top-Up",
+    label: "Wallet & Top-Up Issues",
     queue: "Dax-Payments-Wallet-MY",
     subIssues: {
       wallet_balance: {
@@ -60,7 +60,7 @@ const issueTypes = {
   },
 
   statements: {
-    label: "Statements & E-Invoice",
+    label: "Statements & E-Invoice Issues",
     queue: "Dax-Payments-Statements & E-Invoice-MY",
     subIssues: {
       stmt_deduction: {
@@ -75,7 +75,7 @@ const issueTypes = {
   },
 
   incentives: {
-    label: "Incentives & Bonus",
+    label: "Incentives & Bonus Issues",
     queue: "Dax-Payments-Incentives-MY",
     subIssues: {
       inc_not_received: {
@@ -114,7 +114,7 @@ const issueTypes = {
   },
 
   cashout: {
-    label: "Cash-Out",
+    label: "Cash-Out Issues",
     queue: "Dax-Payments-Cashout-MY",
     subIssues: {
       co_failed: {
