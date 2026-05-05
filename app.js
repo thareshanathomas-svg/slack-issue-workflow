@@ -6,6 +6,7 @@ const { handleModalSubmit } = require("./handlers/submissionHandler");
 
 const receiver = new ExpressReceiver({
   signingSecret: process.env.SLACK_SIGNING_SECRET,
+  endpoints: "/slack/events",
 });
 
 const app = new App({
